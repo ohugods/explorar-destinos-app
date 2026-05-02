@@ -1,5 +1,28 @@
-﻿{
+{
   "rewrites": [
-    { "source": "/screens/:path*", "destination": "/src/screens/:path*" }
+    {
+      "source": "/screens/detalhes_da_viagem.html",
+      "destination": "/src/screens/trip-detail.html"
+    },
+    {
+      "source": "/src/screens/detalhes_da_viagem.html",
+      "destination": "/src/screens/trip-detail.html"
+    },
+    {
+      "source": "/screens/perfil_do_viajante.html",
+      "destination": "/src/screens/traveler-profile.html"
+    },
+    {
+      "source": "/src/screens/perfil_do_viajante.html",
+      "destination": "/src/screens/traveler-profile.html"
+    },
+    {
+      "source": "/screens/explorar_destinos.html",
+      "destination": "/src/screens/explore.html"
+    },
+    {
+      "source": "/src/screens/explorar_destinos.html",
+      "destination": "/src/screens/explore.html"
+    }
   ]
 }
